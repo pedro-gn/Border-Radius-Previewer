@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    background-color: #191817;
+    height: 100vh;
+}
+.radiusBox {
+    background-color: #EE6C4D;
+    height: 500px;
+    width: 500px;
+}
+.div2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div1{
+display: flex;
+align-content: center;
+justify-content: space-between;
+margin: auto 30vw;
+height: 100px;
+}
+.div1 input {
+    margin-top: 90px;
+}
+.div3{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin: auto 30vw;
+}
+input {
+    background: #F38D68;
+    -webkit-appearance: none;
+    height: 3px;
+    outline: none;
+    opacity: 0.7;
+}
+input:hover {
+    opacity: 1;
+}
+input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #19B8AD;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.copyBox{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.copyBox h3 {
+    color: #7B7772;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 30px;
+}
+.copyBox input {
+    height: 30px;
+    width: 230px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #7B7772;
+}
+.copyBox button {
+    height: 30px;
+    border: none;
+    width: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #EE6C4D;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    opacity: 0.8;
+}
+.copyBox button:hover {
+    opacity: 1;
+}
